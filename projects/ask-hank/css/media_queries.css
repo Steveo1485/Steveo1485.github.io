@@ -1,0 +1,32 @@
+@media (max-width: 945px) {
+
+	.speech-bubble {
+		left: 30px;
+	}
+
+	input#question-input {
+	    width: 90%;
+	}
+}
+
+@media (max-width: 700px) {
+
+	.speech-bubble {
+		left: 5px;
+		width: 33%;
+	}
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+	p#hank-says {
+		font-size: 2em;
+	}
+
+	.speech-bubble {
+		left: 10px;
+		width: 35%;
+	}
+}
