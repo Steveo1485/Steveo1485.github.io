@@ -35,3 +35,7 @@ h1#name-headline {
 	color: #ecf0f1;
 	text-decoration: none;
 }
+
+#social a:hover {
+	color: #3498db;
+}
