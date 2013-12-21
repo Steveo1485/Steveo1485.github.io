@@ -1,15 +1,21 @@
 header {
-	background-color: #2c3e50;
 	background: url('../images/background.jpg');
 	background-size: cover;
-	border-bottom: 10px black solid;
+	-moz-box-shadow:    0 0 15px 15px #777A7A;
+	-webkit-box-shadow: 0 0 15px 15px #777A7A;
+	box-shadow:         0 0 15px 15px #777A7A;
+}
+
+#header-container {
+	display: absolute;
+	background-color: rgba(44,62,80,0.7)
 }
 
 h1#name-headline {
 	padding-top: 100px;
 	font-size: 3em;
 	font-family: 'Candal', sans-serif;
-	color: #16a085;
+	color: #ecf0f1;
 	text-align: center;
 	margin-bottom: 50px;
 }
@@ -21,7 +27,7 @@ img#my-picture {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 50px;
-	border: 15px solid #16a085;
+	border: 15px solid #ecf0f1;
 	border-radius: 50%;
 }
 
@@ -34,10 +40,10 @@ img#my-picture {
 }
 
 #social a {
-	color: #16a085;
+	color: #ecf0f1;
 	text-decoration: none;
 }
 
 #social a:hover {
-	color: #2980b9;
+	color: #FFA03B;
 }
