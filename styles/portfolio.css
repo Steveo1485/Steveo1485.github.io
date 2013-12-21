@@ -1,0 +1,35 @@
+.portfolio-item {
+	width: 80%;
+	min-height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	background-color: #709ECC;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+img.portfolio-img-left {
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+
+img.portfolio-img-right {
+	display: inline-block;
+	float: right;
+	padding: 10px;
+}
+
+h3.portfolio-title {
+	font-size: 1.5em;
+	font-family: 'Candal', sans-serif;
+	color: #16a085;
+	margin-bottom: 5px;
+}
+
+p.portfolio-description {
+	font-size: .75em;
+	font-family: 'Playfair Display', serif;
+	color: #ffffff;
+}
