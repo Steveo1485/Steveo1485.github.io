@@ -46,3 +46,7 @@ p.portfolio-description {
 .portfolio-description a:hover {
 	color: #B25E06;
 }
+
+.portfolio-link {
+	font-family: 'Candal', sans-serif;	
+}
