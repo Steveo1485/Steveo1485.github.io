@@ -36,6 +36,11 @@ h2.section-title {
 }
 
 #skills {
+	display: none;
 	width: 100%;
 	background-color: green;
+}
+
+#hank {
+	display: none;
 }

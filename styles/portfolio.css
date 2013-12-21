@@ -24,12 +24,13 @@ img.portfolio-img-right {
 h3.portfolio-title {
 	font-size: 1.5em;
 	font-family: 'Candal', sans-serif;
-	color: #16a085;
-	margin-bottom: 5px;
+	color: #2c3e50;
+	margin-bottom: .75em;
 }
 
 p.portfolio-description {
 	font-size: .75em;
 	font-family: 'Playfair Display', serif;
 	color: #ffffff;
+	padding-bottom: 1em;
 }
