@@ -4,9 +4,8 @@
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 25px;
-	background-color: #C4D0DA;
+	background-color: #bdc3c7;
 	padding: 10px;
-	border-radius: 10px;
 	-moz-box-shadow: inset 0 0 10px #777A7A;
 	-webkit-box-shadow: inset 0 0 10px #777A7A;
 	box-shadow: inset 0 0 10px #777A7A;
@@ -44,7 +43,7 @@ p.portfolio-description {
 }
 
 .portfolio-description a:hover {
-	color: #B25E06;
+	color: #045F7F;
 }
 
 .portfolio-link {
