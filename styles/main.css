@@ -15,11 +15,6 @@ body {
 	padding: 0;
 }
 
-#in-progress {
-	width: 100%;
-	display: none;
-}
-
 #container {
 	margin: 0;
 	width: 100%;
