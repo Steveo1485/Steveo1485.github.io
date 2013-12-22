@@ -1,9 +1,11 @@
 header {
+	position: relative;
 	background: url('../images/background.jpg');
 	background-size: cover;
 	-moz-box-shadow:    0 0 15px 15px #67787F;
 	-webkit-box-shadow: 0 0 15px 15px #67787F;
 	box-shadow:         0 0 15px 15px #67787F;
+	z-index: 1000;
 }
 
 #header-container {
