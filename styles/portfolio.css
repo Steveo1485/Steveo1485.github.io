@@ -1,3 +1,14 @@
+#portfolio {
+	position: relative;
+	background: url('../images/main-bg.png');
+	height: 100%;
+	-moz-box-shadow: 0 0 10px #777A7A;
+	-webkit-box-shadow: 0 0 10px #777A7A;
+	box-shadow: 0 0 10px #777A7A;
+	z-index: 500;
+	padding-bottom: 50px;
+}
+
 .portfolio-item {
 	width: 80%;
 	min-height: 250px;

@@ -1,0 +1,43 @@
+#about-me {
+	background-color: #bdc3c7;
+	height: 100%;
+}
+
+#profile {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #4095C7;
+	padding: 10px;
+	margin-bottom: 50px;
+	-moz-box-shadow:    0px 6px 10px 3px #808587;
+	-webkit-box-shadow: 0px 6px 10px 3px #808587;
+	box-shadow:			0px 6px 10px 3px #808587;
+}
+
+#profile p {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 80%;
+	font-size: .75em;
+	font-family: 'Playfair Display', serif;
+	color: #323333;
+	padding: 10px;
+}
+
+#profile-social {
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+	padding-bottom: 10px;
+}
+
+#profile-social a {
+	color: #323333;
+	text-decoration: none;
+}
+
+#profile-social a:hover {
+	color: #ecf0f1;
+}
