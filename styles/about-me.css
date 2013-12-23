@@ -1,17 +1,36 @@
 #about-me {
-	background-color: #bdc3c7;
+	position: relative;
+	background: url('../images/about-me.jpg');
+	background-size: cover;
+	-moz-box-shadow: 0 0 15px 15px #67787F;
+	-webkit-box-shadow: 0 0 15px 15px #67787F;
+	box-shadow: 0 0 15px 15px #67787F;
+	z-index: 1000;
+}
+
+#end-container {
+	width: 100%;
 	height: 100%;
+	display: absolute;
+	background-color: rgba(44,62,80,0.6);
+	padding-bottom: 50px;
+}
+
+h2#about-title {
+	font-size: 2em;
+	font-family: 'Candal', sans-serif;
+	color: #ecf0f1;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 #profile {
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #4095C7;
+	background-color: rgba(44,62,80,0.7);
 	padding: 10px;
 	margin-bottom: 50px;
-	-moz-box-shadow:    0px 6px 10px 3px #808587;
-	-webkit-box-shadow: 0px 6px 10px 3px #808587;
-	box-shadow:			0px 6px 10px 3px #808587;
 }
 
 #profile p {
@@ -20,7 +39,7 @@
 	text-align: center;
 	font-size: .75em;
 	font-family: 'Playfair Display', serif;
-	color: #323333;
+	color: #ecf0f1;
 	padding: 10px;
 }
 
@@ -32,10 +51,10 @@
 }
 
 #profile-social a {
-	color: #323333;
+	color: #ecf0f1;
 	text-decoration: none;
 }
 
 #profile-social a:hover {
-	color: #ecf0f1;
+	color: #FFA03B;
 }
