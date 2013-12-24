@@ -26,6 +26,7 @@ h2#about-title {
 }
 
 #profile {
+	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: rgba(44,62,80,0.7);
