@@ -10,11 +10,13 @@
     <title>Scott & From Co., Inc.</title>
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/layouts.css" rel="stylesheet">
     <script src="javascripts/jquery-1.11.2.min.js"></script>
     <script src="javascripts/bootstrap.min.js"></script>
   </head>
 
   <body>
+    <!-- HEADER / NAV -->
     <header>
       <nav class="navbar navbar-default">
         <div class="container-fluid">
@@ -31,9 +33,6 @@
         
           <div class="collapse navbar-collapse" id="main-collapse">
             <ul class="nav navbar-nav">
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Location</a></li>
-              <li><a href="#">About</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Services <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
@@ -45,6 +44,9 @@
                   <li><a href="#">Fabrication - Custom Products</a></li>
                 </ul>
               </li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Location</a></li>
+              <li><a href="#">Contact</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li><a href="tel:253-473-6644">253.473.6644</a></li>
@@ -55,8 +57,82 @@
       </nav>
     </header>
 
-    <div class="container-fluid">
-      <h1>Scott & From Co., Inc.</h1>
+
+    <!-- MAIN CONTENT -->
+    <div class="container-fluid" id="main-content">
+      <div class="row">
+        <div class="col-sm-12" id="banner">
+          BANNER HERE
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          Welcome to Scott & From. Please click below for more information.
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="tile">
+            Heating Ventilation and Air Conditioning
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="tile">
+            Architectural Metals - Roofing
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="tile">
+            Architectural Metals - Safety Rails
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="tile">
+            Fabrication - Ductwork
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="tile">
+            Fabrication - Construction Specialties
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="tile">
+            Fabrication - Custom Products
+          </div>
+        </div>
+      </div>
     </div>
+
+    <!-- FOOOTER -->
+    <footer class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 text-center">
+          <strong>Scott & From Co., Inc</strong>
+        </div>
+        <div class="col-sm-3 text-center">
+          <strong>Phone:</strong> 253.473.6644
+        </div>
+        <div class="col-sm-3 text-center">
+          <strong>Fax:</strong> 253.473.3992
+        </div>
+        <div class="col-sm-3 text-center">
+          <a href="#">Contact</a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          Contractor's Licence #SCOTTI*225DZ
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          &copy; 2015
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
