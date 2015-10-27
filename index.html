@@ -2,84 +2,27 @@
 
 <html>
 	<head>
-		<title>Steven Nugent</title>
+		<title>Steven Nugent :: Developer</title>
 
 		<link href='styles/main.css' rel='stylesheet' type='text/css'>
-		<link href='styles/header.css' rel='stylesheet' type='text/css'>
-		<link href='styles/portfolio.css' rel='stylesheet' type='text/css'>
-		<link href='styles/about-me.css' rel='stylesheet' type='text/css'>
-		<link href='styles/typicons.css' rel='stylesheet' type='text/css'>
+		<link href='styles/bootstrap.min.css' rel='stylesheet' type='text/css'>
 
-		<link href='http://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src='javascripts/bootstrap.min.js'></script>
 	</head>
 
 	<body>
-		<header>
-			<div id="header-container">
-				<h1 id="name-headline">Steven Nugent</h1>
-				<img src="images/me.jpg" alt="Steven Nugent" id="my-picture">
-				<div id="social">
-					<a href="https://github.com/steveo1485"<i class="icon-github"></i></a>
-					<a href="http://www.linkedin.com/pub/steven-nugent/25/bb6/b16/"><i class="icon-linkedin"></i></a>
-					<a href="mailto:stevennugent@gmail.com"><i class="icon-email"></i></a>
-				</div>
-			</div>
-		</header>
+		<div class='banner main'>
+			<img src='images/steven-nugent.jpg' alt='Steven Nugent' class='portrait'>
+			<h1>Steven Nugent</h1>
+			<h2>Web Developer - Seattle, WA</h2>
+		</div>
+		<div class='container-fluid'>
 
-		<div id="container">
 
-			<div id="portfolio">
-				<h2 class="section-title">Portfolio</h2>
 
-				<div class="portfolio-item">
-					<a href="http://fridge-friend.herokuapp.com"><img src="images/fridge-friend-small.jpg" alt="Fridge Friend" class="portfolio-img-left"></a>
-					<h3 class="portfolio-title">Fridge Friend</h3>
-					<p class="portfolio-description">Final project at Dev Bootcamp, created in a week long sprint with 3 teammates: <a href="https://github.com/anniesing">Annie Sing</a>, <a href="https://github.com/carterS">Carter Sowers</a>, and <a href="https://github.com/theInternauts">Cricket Wallace</a>. Fridge Friend allows you to create collaborative refrigerators, grocery lists and recipes with spouses, roommates, or even friends coming over for a party. Fridge Friend is built on Rails and incorporates Twilio and Yummly API, while using jQuery Mobile for the front-end.</p>
-					<p class="portfolio-description"><a href="http://fridge-friend.herokuapp.com" class="portfolio-link">Visit Fridge Friend</a><br/>
-					<a href="https://github.com/gopher-snakes-2013/Fridge-Friends-2.0" class="portfolio-link">View on GitHub</a></p>
-				</div>
 
-				<div class="portfolio-item">
-					<a href="http://steveo1485.github.io/projects/ask-hank/"><img src="images/ask-hank-small.jpg" alt="Ask Hank" class="portfolio-img-right"></a>
-					<h3 class="portfolio-title">Ask Hank</h3>
-					<p class="portfolio-description">My dog, Hank, has a lot to say. You'll never need a Magic 8 Ball again. Instead, just Ask Hank! Ask Hank was created as a fun side project to focus on CSS and pure Javascript, without any libraries.</p>
-					<p class="portfolio-description"><a href="http://steveo1485.github.io/projects/ask-hank/" class="portfolio-link">Visit Ask Hank</a><br/>
-					<a href="https://github.com/Steveo1485/AskHank" class="portfolio-link">View on GitHub</a></p>
-				</div>
-
-				<div class="portfolio-item">
-					<a href="http://do-something.herokuapp.com/"><img src="images/do-something-small.jpg" alt="Do Something" class="portfolio-img-left"></a>
-					<h3 class="portfolio-title">Do Something</h3>
-					<p class="portfolio-description">Do Something is your own personal Yelp. Rate your activities, then when you need an idea of something to do, have Do Something randomly suggest an activity. Do Something runs on Sinatra and uses the Facebook API with OmniAuth for user auth. Created at Dev Bootcamp with <a href="https://github.com/anniesing">Annie Sing</a>, <a href="https://github.com/RyanHedges">Ryan Hedges</a>, and <a href="https://github.com/roberttaraya">Robert Taraya</a>.</p>
-					<p class="portfolio-description"><a href="http://do-something.herokuapp.com/" class="portfolio-link">Visit Do Something</a><br/>
-					<a href="https://github.com/gopher-snakes-2013/Do_Something" class="portfolio-link">View on GitHub</a></p>
-				</div>
-
-				<div class="portfolio-item">
-					<a href="http://christmas-name-draw.herokuapp.com"><img src="images/christmas-name-draw-small.jpg" alt="Christmas Name Draw" class="portfolio-img-right"></a>
-					<h3 class="portfolio-title">Christmas Name Draw</h3>
-					<p class="portfolio-description">Created to handle my family's annual holiday gift name draw process, Christmas Name Draw allows users to create and update their holiday wish list, while also showing the wish list of their randomly selected gift recipient. Christmas Name Draw is built on Rails and utilizes Rake tasks for random wish list pairing as well as ActionMailer to send reminder emails leading up to Christmas.</p>
-					<p class="portfolio-description"><a href="http://christmas-name-draw.herokuapp.com" class="portfolio-link">Visit Christmas Name Draw</a><br/>
-					<a href="https://github.com/Steveo1485/christmas-name-draw" class="portfolio-link">View on GitHub</a></p>
-				</div>
-			</div>
-
-			<div id="about-me">
-				<div id="end-container">
-					<h2 id="about-title">About Me</h2>
-				
-					<div id="profile">
-						<p>Since my first Geocities website in 1997, I've been passionate about using technology to create and make an impact. Whether that means developing an app to help make somebody's life easier or a fun website that provides a few laughs. I'm always ready for a new challenge, I especially love tackling new technologies.</p>
-
-						<div id="profile-social">
-							<a href="https://github.com/steveo1485"<i class="icon-github"></i></a>
-							<a href="http://www.linkedin.com/pub/steven-nugent/25/bb6/b16/"><i class="icon-linkedin"></i></a>
-							<a href="mailto:stevennugent@gmail.com"><i class="icon-email"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
 	</body>
+
 </html>

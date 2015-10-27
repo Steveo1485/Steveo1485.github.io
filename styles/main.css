@@ -1,31 +1,32 @@
-* {
-	margin: 0;
-	padding: 0;
-}
-
 html {
 	width: 100%;
 	height: 100%;
 	font-size: 16pt;
-	background-color: #bdc3c7;
 }
 
 body {
+	height: 100%;
 	margin: 0;
 	padding: 0;
 }
 
-#container {
-	margin: 0;
-	width: 100%;
-	height: 100%;
+.banner {
+  background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 }
 
-h2.section-title {
-	font-size: 2em;
-	font-family: 'Candal', sans-serif;
-	color: #045F7F;
+.banner.main {
+	height: 90vh;
+	min-height: 350px;
+	background-image: url('../images/seattle-large.jpg');
 	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	color: #fff;
+}
+
+img.portrait {
+	max-width: 200px;
+	border: 10px solid #fff;
+	display: block;
+	margin: 0 auto;
 }
