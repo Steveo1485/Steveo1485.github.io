@@ -43,3 +43,11 @@ img.portrait {
 	display: block;
 	margin: 0 auto;
 }
+
+.intro a.social:not(:last-of-type) {
+	margin-right: 1em;
+}
+
+.intro .connect {
+	margin-top: 2em;
+}
