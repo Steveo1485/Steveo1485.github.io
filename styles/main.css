@@ -17,11 +17,24 @@ body {
 }
 
 .banner.main {
-	height: 90vh;
-	min-height: 350px;
+	height: 100vh;
+	min-height: 400px;
 	background-image: url('../images/seattle-large.jpg');
 	text-align: center;
+}
+
+.main:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.intro {
 	color: #fff;
+	display: inline-block;
+	vertical-align: middle;
+	width: 75%;
 }
 
 img.portrait {
